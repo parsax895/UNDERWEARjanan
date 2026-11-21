@@ -1,0 +1,14 @@
+.env
+.env.*
+!.env.example
+data.json
+node_modules/
+*.log
+*.exe
+
+fix.js
+fixserver.js
+patch*.js
+
+server.js
+app.js
