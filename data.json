@@ -8,13 +8,12 @@
       "price": 240000,
       "oldPrice": 0,
       "stock": 10,
-      "colors": [
-        "آبی"
+      "colors": ["آبی"],
+      "sizes": ["3XL"],
+      "images": [
+        "https://i.ibb.co/vCN9L4zz/photo-2026-11-21-19-43-58.jpg",
+        "https://i.ibb.co/FbH4sPmy/photo-2026-11-21-19-44-04.jpg"
       ],
-      "sizes": [
-        "3XL"
-      ],
-      "images": [],
       "material": "نخ پنبه",
       "description": "جنس عالی؛ فاق دولایه و بلند؛ کش پهن؛ ضد حساسیت. سایز 3XL.",
       "isNew": true,
