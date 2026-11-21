@@ -1,0 +1,600 @@
+{
+  "version": 1,
+  "products": [
+    {
+      "id": "uj-tg-45",
+      "code": "UJ-0002",
+      "name": "ست سوتین و شورت دانتل فنردار",
+      "category": "ست",
+      "price": 500000,
+      "oldPrice": 0,
+      "stock": 0,
+      "colors": [],
+      "sizes": [],
+      "images": [
+        "/assets/products/uj-0002.jpg"
+      ],
+      "material": "دانتل / گیپور",
+      "description": "ست سوتین و شورت دانتل فنر دار رنگبندی مطابق تصویر سایز 👈۷۵٫۸۰٫،۸۵،۹۰ قیمت بااحترام👈۵۰۰/۰۰۰ تومان",
+      "isNew": true,
+      "sold": 0
+    },
+    {
+      "id": "uj-tg-62",
+      "code": "UJ-0003",
+      "name": "سوتین نخی لاکرا",
+      "category": "زنانه",
+      "price": 400000,
+      "oldPrice": 0,
+      "stock": 0,
+      "colors": [],
+      "sizes": [],
+      "images": [
+        "/assets/products/uj-0003.jpg"
+      ],
+      "material": "نخی",
+      "description": "سوتین نخی لاکرا اعلا سایزبندی👈۷۰و۷۵و۸۰و۸۵ رنگبندی مطابق تصویر قیمت بااحترام:۴۰۰/۰۰۰ تومان",
+      "isNew": true,
+      "sold": 0
+    },
+    {
+      "id": "uj-tg-84",
+      "code": "UJ-0004",
+      "name": "سوتین دانتل دالبری بدون فنر",
+      "category": "زنانه",
+      "price": 460000,
+      "oldPrice": 0,
+      "stock": 0,
+      "colors": [],
+      "sizes": [],
+      "images": [
+        "/assets/products/uj-0004.jpg"
+      ],
+      "material": "دانتل / گیپور",
+      "description": "سوتین دانتل دالبری بدون فنر👙 سایزبندی👈۷۵،۸۰،۸۵،۹۰ رنگبندی 👈گلبهی،کرم،مشکی قیمت با احترام👈۴۶۰/۰۰۰ تومان",
+      "isNew": true,
+      "sold": 0
+    },
+    {
+      "id": "uj-tg-97",
+      "code": "UJ-0005",
+      "name": "سوتین بلادونا",
+      "category": "زنانه",
+      "price": 450000,
+      "oldPrice": 0,
+      "stock": 0,
+      "colors": [],
+      "sizes": [],
+      "images": [
+        "/assets/products/uj-0005.jpg"
+      ],
+      "material": "",
+      "description": "سوتین مارک معروف بلادونا جنس عالی ،جنس قزن فلزی ،لیفت کننده سینه،ایستایی عالی😍 سایزبندی👈۷۵،۸۰،۸۵،۹۰ رنگبندی مطابق تصویر قیمت بااحترام 👈۴۵۰/۰۰۰تومان",
+      "isNew": true,
+      "sold": 0
+    },
+    {
+      "id": "uj-tg-105",
+      "code": "UJ-0006",
+      "name": "شورت پادار دخترانه ملودی و کرومی",
+      "category": "بچگانه",
+      "price": 150000,
+      "oldPrice": 0,
+      "stock": 0,
+      "colors": [],
+      "sizes": [],
+      "images": [
+        "/assets/products/uj-0006.jpg"
+      ],
+      "material": "",
+      "description": "شورت پادار دخترانه پرطرفدار ملودی و کرومی😍 مناسب سن👈۷-۴👧 قیمت با احترام:۱۵۰/۰۰۰ تومان",
+      "isNew": true,
+      "sold": 0
+    },
+    {
+      "id": "uj-tg-107",
+      "code": "UJ-0007",
+      "name": "پاپوش کفشی",
+      "category": "پاپوش",
+      "price": 220000,
+      "oldPrice": 0,
+      "stock": 0,
+      "colors": [],
+      "sizes": [],
+      "images": [
+        "/assets/products/uj-0007.jpg"
+      ],
+      "material": "",
+      "description": "پاپوش کفشی خوشگل و جذاب براتون اوردم😍🩷 در طرح های مختلف سایز ۳۷ تا ۴۱ مناسب مهمونیا و جشن ها💃 قیمت بااحترام 👈۲۲۰/۰۰۰تومان",
+      "isNew": true,
+      "sold": 0
+    },
+    {
+      "id": "uj-tg-109",
+      "code": "UJ-0008",
+      "name": "ست شورت و رکابی دخترانه لبوبو",
+      "category": "بچگانه",
+      "price": 400000,
+      "oldPrice": 0,
+      "stock": 0,
+      "colors": [],
+      "sizes": [],
+      "images": [
+        "/assets/products/uj-0008.jpg"
+      ],
+      "material": "",
+      "description": "💛ست شورت و رکابی بندیی دخترانه جنس اعلا طرح لبوبو رنگبندی رنگین کمان🌈 📐سایزبندی:(۶ تا ۱۲ سال) 💰 قیمت بااحترام 👈۴۰۰/۰۰۰ تومان",
+      "isNew": true,
+      "sold": 0
+    },
+    {
+      "id": "uj-tg-111",
+      "code": "UJ-0009",
+      "name": "جوراب ساق بلند طرح استیج",
+      "category": "جوراب",
+      "price": 150000,
+      "oldPrice": 0,
+      "stock": 0,
+      "colors": [],
+      "sizes": [],
+      "images": [
+        "/assets/products/uj-0009.jpg"
+      ],
+      "material": "",
+      "description": "جوراب ساق بلند فانتزی طرح استیج💙 نخ هندی 💯 کش انگلیسی پنجه روسو سایز ۳۷ تا ۴۰ قیمت بااحترام :۱۵۰/۰۰۰ تومان",
+      "isNew": true,
+      "sold": 0
+    },
+    {
+      "id": "uj-tg-114",
+      "code": "UJ-0010",
+      "name": "جوراب نیم ساق کریسمسی",
+      "category": "جوراب",
+      "price": 120000,
+      "oldPrice": 0,
+      "stock": 0,
+      "colors": [],
+      "sizes": [],
+      "images": [
+        "/assets/products/uj-0010.jpg"
+      ],
+      "material": "",
+      "description": "جوراب نیم ساق کریسمسی گوگولی⛄️❤️ سایز ۳۶تا۴۰ در طرح های مختلف قیمت بااحترام 👈۱۲۰/۰۰۰ تومان",
+      "isNew": true,
+      "sold": 0
+    },
+    {
+      "id": "uj-tg-115",
+      "code": "UJ-0011",
+      "name": "جوراب مچی زنانه هندوانه‌ای",
+      "category": "جوراب",
+      "price": 80000,
+      "oldPrice": 0,
+      "stock": 0,
+      "colors": [],
+      "sizes": [],
+      "images": [
+        "/assets/products/uj-0011.jpg"
+      ],
+      "material": "",
+      "description": "جوراب مچی زنانه هندونه ای 🍉 یلدا بدون هندونه که معنا نداره❤️ سایز ۳۶تا ۴۱ قیمت با احترام 👈۸۰/۰۰۰ تومان",
+      "isNew": true,
+      "sold": 0
+    },
+    {
+      "id": "uj-tg-116",
+      "code": "UJ-0012",
+      "name": "نیم تنه کاپ‌دار متحرک",
+      "category": "زنانه",
+      "price": 450000,
+      "oldPrice": 0,
+      "stock": 0,
+      "colors": [],
+      "sizes": [],
+      "images": [
+        "/assets/products/uj-0012.jpg"
+      ],
+      "material": "",
+      "description": "نیم تنه های کاپ دار متحرک کمر گنی پشت بندی 😍 ۶ رنگ متنوع فری سایز تا ۴۶ کاور میکنه قیمت بااحترام 👈۴۵۰/۰۰۰تومان",
+      "isNew": true,
+      "sold": 0
+    },
+    {
+      "id": "uj-tg-118",
+      "code": "UJ-0013",
+      "name": "شورت نخ پنبه زنانه چی‌چی",
+      "category": "زنانه",
+      "price": 240000,
+      "oldPrice": 0,
+      "stock": 0,
+      "colors": [],
+      "sizes": [],
+      "images": [
+        "/assets/products/uj-0013.jpg"
+      ],
+      "material": "نخ پنبه",
+      "description": "شورت نخ پنبه زنانه کش پهن از برند عالی chi chi🩷 سایز 2xl قیمت با احترام 👈۲۴۰/۰۰۰ تومان",
+      "isNew": true,
+      "sold": 0
+    },
+    {
+      "id": "uj-tg-119",
+      "code": "UJ-0014",
+      "name": "نیم تنه ورزشی",
+      "category": "زنانه",
+      "price": 450000,
+      "oldPrice": 0,
+      "stock": 0,
+      "colors": [],
+      "sizes": [],
+      "images": [
+        "/assets/products/uj-0014.jpg"
+      ],
+      "material": "",
+      "description": "نیم تنه های ورزشی جذاب😋 تا سایز ۴۶ رو کاور میکنه پشت قهرمانی کاپ دار متحرک💪 قیمت بااحترام 👈۴۵۰/۰۰۰ تومان",
+      "isNew": true,
+      "sold": 0
+    },
+    {
+      "id": "uj-tg-127",
+      "code": "UJ-0015",
+      "name": "سوتین اسفنجی فنردار",
+      "category": "زنانه",
+      "price": 550000,
+      "oldPrice": 0,
+      "stock": 0,
+      "colors": [],
+      "sizes": [],
+      "images": [
+        "/assets/products/uj-0015.jpg"
+      ],
+      "material": "",
+      "description": "سوتین اسفنجی فنر دار🤤 داخل ماساژوری ۱۲ رنگ مختلف🌈 کاپ B سایزبندی ۸۰/۸۵/۹۰/۹۵ قیمت با احترام : ۵۵۰/۰۰۰ تومان ثبت سفارش پی وی😊",
+      "isNew": true,
+      "sold": 0
+    },
+    {
+      "id": "uj-tg-130",
+      "code": "UJ-0016",
+      "name": "شورت نخ پنبه LACO",
+      "category": "زنانه",
+      "price": 240000,
+      "oldPrice": 0,
+      "stock": 0,
+      "colors": [],
+      "sizes": [],
+      "images": [
+        "/assets/products/uj-0016.jpg"
+      ],
+      "material": "نخ پنبه",
+      "description": "شورت نخ پنبه برند معتبر LACO سایز 2xl رنگبندی مداد رنگی🌈 قیمت بااحترام ۲۴۰/۰۰۰ تومان ثبت سفارش پی وی😊",
+      "isNew": true,
+      "sold": 0
+    },
+    {
+      "id": "uj-tg-131",
+      "code": "UJ-0017",
+      "name": "سوتین دانتل داخل نخ",
+      "category": "زنانه",
+      "price": 470000,
+      "oldPrice": 0,
+      "stock": 0,
+      "colors": [],
+      "sizes": [],
+      "images": [
+        "/assets/products/uj-0017.jpg"
+      ],
+      "material": "دانتل / گیپور",
+      "description": "سوتین دانتل داخل نخ کیفیت بسیار عالی👙 رنگبندی کرم،زرشکی،مشکی،شبرنگی سایز ۷۵،۸۰،۸۵ قیمت بااحترام :۴۷۰/۰۰۰تومان ثبت سفارش پی وی😊",
+      "isNew": true,
+      "sold": 0
+    },
+    {
+      "id": "uj-tg-133",
+      "code": "UJ-0018",
+      "name": "جوراب مچی بچگانه تدی",
+      "category": "جوراب",
+      "price": 80000,
+      "oldPrice": 0,
+      "stock": 0,
+      "colors": [],
+      "sizes": [],
+      "images": [
+        "/assets/products/uj-0018.jpg"
+      ],
+      "material": "",
+      "description": "جوراب های مچی بچگانه تدی🐻🧒 سایز ۲،۳،۴،۵ رنگبندی های جذاب🌈 قیمت بااحترام: ۸۰/۰۰۰ تومان",
+      "isNew": true,
+      "sold": 0
+    },
+    {
+      "id": "uj-tg-137",
+      "code": "UJ-0019",
+      "name": "شورت نخ پنبه TBT",
+      "category": "زنانه",
+      "price": 240000,
+      "oldPrice": 0,
+      "stock": 0,
+      "colors": [],
+      "sizes": [],
+      "images": [
+        "/assets/products/uj-0019.jpg"
+      ],
+      "material": "نخ پنبه",
+      "description": "شورت نخ پنبه اعلا مارک TBT😍 ضد حساسیت💯 فاق دولایه👌 سایز ۲xl تم سفید و صورتی🩷🤍 قیمت بااحترام: ۲۴۰/۰۰۰ تومان برای ثبت سفارش با ما در ارتباط باشید",
+      "isNew": true,
+      "sold": 0
+    },
+    {
+      "id": "uj-tg-142",
+      "code": "UJ-0020",
+      "name": "شورت کبریتی کلوین Lupo",
+      "category": "زنانه",
+      "price": 260000,
+      "oldPrice": 0,
+      "stock": 0,
+      "colors": [],
+      "sizes": [],
+      "images": [
+        "/assets/products/uj-0020.jpg"
+      ],
+      "material": "",
+      "description": "شورت کبریتی کلوین مارک Lupo😍 جنس عالی👌 ضد حساسیت💯 سایز: xl,2xl رنگبندی مطابق تصویر🌈 قیمت بااحترام:۲۶۰/۰۰۰ تومان برای ثبت سفارش با ما در ارتباط باشید",
+      "isNew": true,
+      "sold": 0
+    },
+    {
+      "id": "uj-tg-143",
+      "code": "UJ-0021",
+      "name": "شورت نخ پنبه ترک ALKIM",
+      "category": "زنانه",
+      "price": 240000,
+      "oldPrice": 0,
+      "stock": 0,
+      "colors": [],
+      "sizes": [],
+      "images": [
+        "/assets/products/uj-0021.jpg"
+      ],
+      "material": "نخ پنبه",
+      "description": "شورت نخ پنبه اعلا ترک مارک ALKIM❤️ ضدحساسیت👌 فاق دولایه💯 سایز 3xl در طرح ها و رنگ های مختلف🌈 قیمت بااحترام: ۲۴۰/۰۰۰ تومان برای ثبت سفارش با ما درارتباط باشید اینستاگرام ما👆",
+      "isNew": true,
+      "sold": 0
+    },
+    {
+      "id": "uj-tg-144",
+      "code": "UJ-0022",
+      "name": "شورت پسرانه نخ پنبه",
+      "category": "بچگانه",
+      "price": 280000,
+      "oldPrice": 0,
+      "stock": 0,
+      "colors": [],
+      "sizes": [],
+      "images": [
+        "/assets/products/uj-0022.jpg"
+      ],
+      "material": "نخ پنبه",
+      "description": "شورت پسرانه نخ پنبه اعلا💯 سایز 5xl مناسب سن 8-12👦 رنگبندی: قرمز،ابی روشن،سورمه ای،سبز،زرد،ابی تیره قیمت بااحترام: ۲۸۰/۰۰۰ تومان برای ثبت سفارش با ما در ارتباط باشید اینستاگرام ما👆",
+      "isNew": true,
+      "sold": 0
+    },
+    {
+      "id": "uj-tg-145",
+      "code": "UJ-0023",
+      "name": "سوتین دانتل داخل نخ فنردار MCO",
+      "category": "زنانه",
+      "price": 480000,
+      "oldPrice": 0,
+      "stock": 0,
+      "colors": [],
+      "sizes": [],
+      "images": [
+        "/assets/products/uj-0023.jpg"
+      ],
+      "material": "دانتل / گیپور",
+      "description": "سوتین دانتل داخل نخ فنر دار مارک mco قزن فلزی👌 کیفیت عالی💯 رنگبندی : سرخابی،ابی کاربنی،سبز صدری،یاسی🌈 سایزبندی: 75,80,85,90 قیمت بااحترام:۴۸۰/۰۰۰ تومان برای ثبت سفارش با ما درارتباط باشید اینستاگرام ما👆",
+      "isNew": true,
+      "sold": 0
+    },
+    {
+      "id": "uj-tg-149",
+      "code": "UJ-0024",
+      "name": "جوراب ساق بلند توت فرنگی",
+      "category": "جوراب",
+      "price": 150000,
+      "oldPrice": 0,
+      "stock": 0,
+      "colors": [],
+      "sizes": [],
+      "images": [
+        "/assets/products/uj-0024.jpg"
+      ],
+      "material": "",
+      "description": "جوراب ساق بلند توت فرنگی🍓 نخ هندی💯 کش انگیلیسی پنجه روسو فری سایز 37-41 قیمت باحترام : ۱۵۰/۰۰۰ تومان برای ثبت سفارش با ما در ارتباط باشید اینستاگرام ما👆",
+      "isNew": true,
+      "sold": 0
+    },
+    {
+      "id": "uj-tg-151",
+      "code": "UJ-0025",
+      "name": "شورت نخ پنبه ترک ALKIM",
+      "category": "زنانه",
+      "price": 240000,
+      "oldPrice": 0,
+      "stock": 0,
+      "colors": [],
+      "sizes": [],
+      "images": [
+        "/assets/products/uj-0025.jpg"
+      ],
+      "material": "نخ پنبه",
+      "description": "شورت نخ پنبه ترک مارک ALKIM❤️ ضدحساسیت💯 فاق دولایه👌 سایز 3xl تم کرم وقهوه ای🤎 قیمت بااحترام:۲۴۰/۰۰۰ تومان برای ثبت سفارش با ما در ارتباط باشید اینستاگرام ما👆",
+      "isNew": true,
+      "sold": 0
+    },
+    {
+      "id": "uj-tg-156",
+      "code": "UJ-0026",
+      "name": "سوتین فول جک تمام گیپور",
+      "category": "زنانه",
+      "price": 600000,
+      "oldPrice": 0,
+      "stock": 0,
+      "colors": [],
+      "sizes": [],
+      "images": [
+        "/assets/products/uj-0026.jpg"
+      ],
+      "material": "دانتل / گیپور",
+      "description": "سوتین فول جک تمام گیپور👙 کاپ B فنر دار جک دار👌 سینه هارو لیفت و خوش حالت میکنه😍 کار وارداتی کیفیت دوخت عالی💯 سایز بندی👈۸۵،۹۰،۹۵،۱۰۰،۱۰۵،۱۱۰ رنگبندی👈زرشکی ،صورتی،طوسی، سفید،کالباسی، مشکی قیمت با احترام:۶۰۰/۰۰۰ تومان اینستاگرام ما☝️",
+      "isNew": true,
+      "sold": 0
+    },
+    {
+      "id": "uj-tg-160",
+      "code": "UJ-0027",
+      "name": "شورت نخ پنبه تم آووکادو",
+      "category": "زنانه",
+      "price": 220000,
+      "oldPrice": 0,
+      "stock": 0,
+      "colors": [],
+      "sizes": [],
+      "images": [
+        "/assets/products/uj-0027.jpg"
+      ],
+      "material": "نخ پنبه",
+      "description": "شورت نخ پنبه تم آووکادو مارک TBT🥑 جنس عالی💯 ضد حساسیت👌 سایز XL مناسب سایز ۴۲-۴۴ قیمت با احترام:۲۲۰/۰۰۰ تومان اینستاگرام ما☝️",
+      "isNew": true,
+      "sold": 0
+    },
+    {
+      "id": "uj-tg-161",
+      "code": "UJ-0028",
+      "name": "شورت بکلس نخ پنبه گیپور",
+      "category": "زنانه",
+      "price": 240000,
+      "oldPrice": 0,
+      "stock": 0,
+      "colors": [],
+      "sizes": [],
+      "images": [
+        "/assets/products/uj-0028.jpg"
+      ],
+      "material": "نخ پنبه",
+      "description": "شورت بکلس نخ پنبه جذابمون با طرح گیپور😍 جنس عالی👌 فری سایز از ۳۸ تا ۵۰میخوره رنگبندی👈کرم، مشکی،قرمز،زرشکی،سورمه ای،سبز،بادمجونی قیمت بااحترام:۲۴۰/۰۰۰ تومان اینستاگرام ما☝️",
+      "isNew": true,
+      "sold": 0
+    },
+    {
+      "id": "uj-tg-165",
+      "code": "UJ-0029",
+      "name": "ست اسفنجی گیپوری",
+      "category": "ست",
+      "price": 700000,
+      "oldPrice": 0,
+      "stock": 0,
+      "colors": [],
+      "sizes": [],
+      "images": [
+        "/assets/products/uj-0029.jpg"
+      ],
+      "material": "دانتل / گیپور",
+      "description": "ست اسفنجی گیپوری😋 کاپ B ایستایی عالی💯 کاپ کوچک مناسب کسانی که سینه های کوچیکی دارن سایز بندی👈۷۵،۸۰،۸۵،۹۰ موجود در رنگ👈کرم و سورمه ای و سبز قیمت بااحترام:۷۰۰/۰۰۰ تومان اینستاگرام ما☝️",
+      "isNew": true,
+      "sold": 0
+    },
+    {
+      "id": "uj-tg-170",
+      "code": "UJ-0030",
+      "name": "ست اسفنجی عروس",
+      "category": "ست",
+      "price": 750000,
+      "oldPrice": 0,
+      "stock": 0,
+      "colors": [],
+      "sizes": [],
+      "images": [
+        "/assets/products/uj-0030.jpg"
+      ],
+      "material": "",
+      "description": "ست اسفنجی عروس👰‍♀️ شورت لیزری روی شلوار رد نمیندازه مناسب مجلس و مهمونی💃 جنس عالی💯 فول جک🤌 رنگ سفید🤍 قیمت با احترام: ۷۵۰/۰۰۰ تومان",
+      "isNew": true,
+      "sold": 0
+    },
+    {
+      "id": "uj-tg-171",
+      "code": "UJ-0031",
+      "name": "سوتین فنردار زیرنخ ترک",
+      "category": "زنانه",
+      "price": 520000,
+      "oldPrice": 0,
+      "stock": 0,
+      "colors": [],
+      "sizes": [],
+      "images": [
+        "/assets/products/uj-0031.jpg"
+      ],
+      "material": "",
+      "description": "سوتین فنردار زیرنخ ترک 😍 جنس عالی💯 سایزبندی👈۹۵،۱۰۰،۱۰۵،۱۱۰،۱۲۰ رنگبندی👈 یاسی،کالباسی،مشکی،کرم، نسکافه ای ،سفید قیمت بااحترام: ۵۲۰/۰۰۰ تومان",
+      "isNew": true,
+      "sold": 0
+    },
+    {
+      "id": "uj-tg-172",
+      "code": "UJ-0032",
+      "name": "ست اسفنجی ترک دانتل",
+      "category": "ست",
+      "price": 750000,
+      "oldPrice": 0,
+      "stock": 0,
+      "colors": [],
+      "sizes": [],
+      "images": [
+        "/assets/products/uj-0032.jpg"
+      ],
+      "material": "دانتل / گیپور",
+      "description": "ست اسفنجی ترک رویه دانتل و زیر نخ👙 فول جک💯 جنس عالی🤌 سایزبندی👈۸۵،۹۰،۹۵،۱۰۰،۱۰۵ رنگبندی👈 سبز ماچا،ارغوانی،کالباسی، طوسی قیمت بااحترام : ۷۵۰/۰۰۰ تومان",
+      "isNew": true,
+      "sold": 0
+    },
+    {
+      "id": "uj-first-cotton-blue-3xl",
+      "code": "UJ-0001",
+      "name": "شورت نخ پنبه تم آبی",
+      "category": "زنانه",
+      "price": 240000,
+      "oldPrice": 0,
+      "stock": 10,
+      "colors": [],
+      "sizes": [],
+      "images": [
+        "https://i.ibb.co/vCN9L4zz/photo-2026-11-21-19-43-58.jpg",
+        "https://i.ibb.co/FbH4sPmy/photo-2026-11-21-19-44-04.jpg"
+      ],
+      "material": "نخ پنبه",
+      "description": "شورت نخ پنبه تم آبی🩵 جنس عالی💯 فاق دولایه و بلند🤌 کش پهن ضد حساسیت😍 سایز ۳xl قیمت بااحترام : ۲۴۰/۰۰۰ تومان",
+      "isNew": true,
+      "sold": 0
+    },
+    {
+      "id": "uj-tg-180",
+      "code": "UJ-0033",
+      "name": "شورت نخ پنبه تم گلبهی",
+      "category": "زنانه",
+      "price": 240000,
+      "oldPrice": 0,
+      "stock": 0,
+      "colors": [],
+      "sizes": [],
+      "images": [
+        "/assets/products/uj-0033.jpg"
+      ],
+      "material": "نخ پنبه",
+      "description": "شورت نخ پنبه تم گلبهی😍 جنس عالی💯 ضد حساسیت🤌 فاق دولایه و بلند کش پهن سایز ۲xl قیمت بااحترام : ۲۴۰/۰۰۰ تومان",
+      "isNew": true,
+      "sold": 0
+    }
+  ]
+}

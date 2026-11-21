@@ -23,19 +23,31 @@ loadEnv();
 const ADMIN_PASSWORD = process.env.ADMIN_PASSWORD || '';
 
 async function readDb() {
-  try {
-    const d = JSON.parse(await fs.readFile(DB, 'utf8'));
-    const imageLinks = new Map([['https://ibb.co/xKnZzq55', 'https://i.ibb.co/vCN9L4zz/photo-2026-11-21-19-43-58.jpg'], ['https://ibb.co/8DYgzhNf', 'https://i.ibb.co/FbH4sPmy/photo-2026-11-21-19-44-04.jpg']]);
-    let imageLinksChanged = false;
-    for (const product of (Array.isArray(d.products) ? d.products : [])) {
-      if (product.id === 'uj-first-cotton-blue-3xl' && Array.isArray(product.images)) {
-        product.images = product.images.map(url => imageLinks.get(url) || url);
-        imageLinksChanged = true;
-      }
+  let d;
+  try { d = JSON.parse(await fs.readFile(DB, 'utf8')); }
+  catch { d = { products: [], orders: [] }; }
+  if (!Array.isArray(d.products)) d.products = [];
+  if (!Array.isArray(d.orders)) d.orders = [];
+  let changed = false;
+  const imageLinks = new Map([['https://ibb.co/xKnZzq55', 'https://i.ibb.co/vCN9L4zz/photo-2026-11-21-19-43-58.jpg'], ['https://ibb.co/8DYgzhNf', 'https://i.ibb.co/FbH4sPmy/photo-2026-11-21-19-44-04.jpg']]);
+  for (const product of d.products) {
+    if (product.id === 'uj-first-cotton-blue-3xl' && Array.isArray(product.images)) {
+      const next = product.images.map(url => imageLinks.get(url) || url);
+      if (JSON.stringify(next) !== JSON.stringify(product.images)) { product.images = next; changed = true; }
     }
-    if (imageLinksChanged) await writeDb(d);
-    return { products: Array.isArray(d.products) ? d.products : [], orders: Array.isArray(d.orders) ? d.orders : [] };
-  } catch { const d = { products: [], orders: [] }; await writeDb(d); return d; }
+  }
+  if (d.seedVersion !== 1) {
+    try {
+      const seed = JSON.parse(await fs.readFile(path.join(ROOT, 'catalog-seed.json'), 'utf8'));
+      for (const p of (Array.isArray(seed.products) ? seed.products : [])) {
+        if (!d.products.some(x => x.id === p.id || (p.code && x.code === p.code))) d.products.push(p);
+      }
+      d.seedVersion = Number(seed.version) || 1;
+      changed = true;
+    } catch (e) { console.error('Catalog seed unavailable:', e.message); }
+  }
+  if (changed) await writeDb(d);
+  return d;
 }
 async function writeDb(d) {
   const tmp = DB + '.tmp';
@@ -70,7 +82,7 @@ function makeProduct(input, old = {}) {
   const p = {
     id: old.id || crypto.randomUUID(), code: String(input.code || '').trim().slice(0, 80),
     name: String(input.name || '').trim().slice(0, 160),
-    category: ['زنانه', 'مردانه', 'ست'].includes(input.category) ? input.category : 'زنانه',
+    category: ['زنانه', 'مردانه', 'ست', 'جوراب', 'پاپوش', 'بچگانه'].includes(input.category) ? input.category : 'زنانه',
     price: Math.max(0, Math.round(Number(input.price) || 0)),
     oldPrice: Math.max(0, Math.round(Number(input.oldPrice) || 0)),
     stock: Math.max(0, Math.floor(Number(input.stock) || 0)),
