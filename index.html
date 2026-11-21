@@ -59,7 +59,31 @@ document.querySelectorAll('[data-close]').forEach(b=>b.onclick=()=>$ (b.dataset.
 $('checkout').onclick=()=>{if(!cart.length)return alert('سبد خرید خالی است.');toggleCart(false);$('checkoutModal').classList.add('show')};
 $('placeOrder').onclick=async()=>{let msg=$('checkoutMsg');msg.textContent='در حال ثبت سفارش…';let payload={name:$('custName').value,phone:$('custPhone').value,email:$('custEmail').value,address:$('custAddress').value,postalCode:$('custPostal').value,items:cart.map(x=>({productId:x.productId,quantity:x.quantity,color:x.color,size:x.size}))};try{let r=await fetch('/api/orders',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(payload)}),d=await r.json();if(!r.ok)throw Error(d.error||'ثبت سفارش انجام نشد');$('checkoutForm').hidden=true;$('checkoutDone').hidden=false;$('checkoutDone').innerHTML='<h3 class="success">درخواست سفارش ثبت شد.</h3><p>شماره پیگیری: <b>'+esc(d.order.id)+'</b></p><p>مبلغ: '+fmt(d.order.total)+'</p><p>برای هماهنگی نهایی با شما تماس گرفته می‌شود.</p>';cart=[];updateCart()}catch(e){msg.textContent=e.message}};
 loadProducts();updateCart();document.getElementById("promoPrev")?.addEventListener("click",()=>document.getElementById("promoTrack")?.scrollBy({left:260,behavior:"smooth"}));document.getElementById("promoNext")?.addEventListener("click",()=>document.getElementById("promoTrack")?.scrollBy({left:-260,behavior:"smooth"}));
-</script></body></html>
+</script><style>/* Mobile-first layout repair */
+html,body{max-width:100%;overflow-x:hidden}
+img{max-width:100%;height:auto}
+header{gap:10px;min-width:0}
+.logo{white-space:nowrap;letter-spacing:1px}
+.actions{min-width:0;gap:8px;flex-shrink:0}
+.actions>a{white-space:nowrap}
+.cart{white-space:nowrap;padding:9px 10px}
+.hero{background-position:center center}
+.categories,.products{min-width:0}
+.cat img,.photo img,.detail-img{display:block;width:100%;height:100%;object-fit:cover}
+.photo{min-width:0}
+.product h3{overflow-wrap:anywhere}
+.filters{max-width:100%;overflow-x:auto;flex-wrap:nowrap;padding-bottom:8px;scrollbar-width:none}
+.filters::-webkit-scrollbar{display:none}
+.filter{flex:0 0 auto;white-space:nowrap}
+.promo-ribbon{max-width:100%;min-width:0}
+.promo-label{font-size:11px;white-space:nowrap}
+.modal{padding:10px}
+.modal-card{width:100%;max-width:620px;padding:18px;max-height:90dvh}
+.detail-img{height:clamp(180px,42vw,300px)}
+@media(max-width:800px){header{padding:0 4%;height:66px}.nav{display:none}.actions{gap:6px}.actions>a{font-size:11px;padding:8px}.cart{font-size:11px;padding:8px}.hero{width:92%;min-height:340px;margin:16px auto 30px;padding:7%;background-position:55% center}.hero-copy{max-width:100%;padding:16px;border-radius:18px}.hero h1{font-size:clamp(32px,8vw,46px)}.hero p{font-size:13px}.section{width:92%;margin-bottom:42px}.categories{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.cat{height:clamp(125px,34vw,190px);min-width:0}.products{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.photo{height:clamp(155px,48vw,235px)}.banner{padding:28px 6%;margin-bottom:38px}.footlinks{gap:12px}.promo-ribbon{width:92%;gap:6px;padding:7px}.promo-chip{font-size:11px;padding:8px 10px}.promo-label{font-size:10px;padding:8px}.promo-arrow{flex-basis:28px;width:28px;height:28px}}
+@media(max-width:380px){.logo{font-size:15px}.actions>a{display:none}.cart{font-size:10px;padding:7px}.hero{min-height:310px}.categories{grid-template-columns:repeat(2,minmax(0,1fr))}.cat{height:125px}.products{gap:9px}.photo{height:155px}.section h2{font-size:18px}.promo-label{display:none}.promo-ribbon{width:94%}.promo-chip{font-size:10px}}
+@media(min-width:801px) and (max-width:1050px){.nav,.actions{gap:10px}.products{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important}}</style></body></html>
 
 <style>
 /* Stronger sky-blue canvas: the blue belongs to the whole page, not only the hero photo */
