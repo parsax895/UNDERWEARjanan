@@ -25,6 +25,15 @@ const ADMIN_PASSWORD = process.env.ADMIN_PASSWORD || '';
 async function readDb() {
   try {
     const d = JSON.parse(await fs.readFile(DB, 'utf8'));
+    const imageLinks = new Map([['https://ibb.co/xKnZzq55', 'https://i.ibb.co/vCN9L4zz/photo-2026-11-21-19-43-58.jpg'], ['https://ibb.co/8DYgzhNf', 'https://i.ibb.co/FbH4sPmy/photo-2026-11-21-19-44-04.jpg']]);
+    let imageLinksChanged = false;
+    for (const product of (Array.isArray(d.products) ? d.products : [])) {
+      if (product.id === 'uj-first-cotton-blue-3xl' && Array.isArray(product.images)) {
+        product.images = product.images.map(url => imageLinks.get(url) || url);
+        imageLinksChanged = true;
+      }
+    }
+    if (imageLinksChanged) await writeDb(d);
     return { products: Array.isArray(d.products) ? d.products : [], orders: Array.isArray(d.orders) ? d.orders : [] };
   } catch { const d = { products: [], orders: [] }; await writeDb(d); return d; }
 }
