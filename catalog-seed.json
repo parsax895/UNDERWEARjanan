@@ -8,7 +8,7 @@
       "category": "ست",
       "price": 500000,
       "oldPrice": 0,
-      "stock": 0,
+      "stock": 10,
       "colors": [],
       "sizes": [],
       "images": [
@@ -26,7 +26,7 @@
       "category": "زنانه",
       "price": 400000,
       "oldPrice": 0,
-      "stock": 0,
+      "stock": 10,
       "colors": [],
       "sizes": [],
       "images": [
@@ -44,7 +44,7 @@
       "category": "زنانه",
       "price": 460000,
       "oldPrice": 0,
-      "stock": 0,
+      "stock": 10,
       "colors": [],
       "sizes": [],
       "images": [
@@ -62,7 +62,7 @@
       "category": "زنانه",
       "price": 450000,
       "oldPrice": 0,
-      "stock": 0,
+      "stock": 10,
       "colors": [],
       "sizes": [],
       "images": [
@@ -80,7 +80,7 @@
       "category": "بچگانه",
       "price": 150000,
       "oldPrice": 0,
-      "stock": 0,
+      "stock": 10,
       "colors": [],
       "sizes": [],
       "images": [
@@ -98,7 +98,7 @@
       "category": "پاپوش",
       "price": 220000,
       "oldPrice": 0,
-      "stock": 0,
+      "stock": 10,
       "colors": [],
       "sizes": [],
       "images": [
@@ -116,7 +116,7 @@
       "category": "بچگانه",
       "price": 400000,
       "oldPrice": 0,
-      "stock": 0,
+      "stock": 10,
       "colors": [],
       "sizes": [],
       "images": [
@@ -134,7 +134,7 @@
       "category": "جوراب",
       "price": 150000,
       "oldPrice": 0,
-      "stock": 0,
+      "stock": 10,
       "colors": [],
       "sizes": [],
       "images": [
@@ -152,7 +152,7 @@
       "category": "جوراب",
       "price": 120000,
       "oldPrice": 0,
-      "stock": 0,
+      "stock": 10,
       "colors": [],
       "sizes": [],
       "images": [
@@ -170,7 +170,7 @@
       "category": "جوراب",
       "price": 80000,
       "oldPrice": 0,
-      "stock": 0,
+      "stock": 10,
       "colors": [],
       "sizes": [],
       "images": [
@@ -188,7 +188,7 @@
       "category": "زنانه",
       "price": 450000,
       "oldPrice": 0,
-      "stock": 0,
+      "stock": 10,
       "colors": [],
       "sizes": [],
       "images": [
@@ -206,7 +206,7 @@
       "category": "زنانه",
       "price": 240000,
       "oldPrice": 0,
-      "stock": 0,
+      "stock": 10,
       "colors": [],
       "sizes": [],
       "images": [
@@ -224,7 +224,7 @@
       "category": "زنانه",
       "price": 450000,
       "oldPrice": 0,
-      "stock": 0,
+      "stock": 10,
       "colors": [],
       "sizes": [],
       "images": [
@@ -242,7 +242,7 @@
       "category": "زنانه",
       "price": 550000,
       "oldPrice": 0,
-      "stock": 0,
+      "stock": 10,
       "colors": [],
       "sizes": [],
       "images": [
@@ -260,7 +260,7 @@
       "category": "زنانه",
       "price": 240000,
       "oldPrice": 0,
-      "stock": 0,
+      "stock": 10,
       "colors": [],
       "sizes": [],
       "images": [
@@ -278,7 +278,7 @@
       "category": "زنانه",
       "price": 470000,
       "oldPrice": 0,
-      "stock": 0,
+      "stock": 10,
       "colors": [],
       "sizes": [],
       "images": [
@@ -296,7 +296,7 @@
       "category": "جوراب",
       "price": 80000,
       "oldPrice": 0,
-      "stock": 0,
+      "stock": 10,
       "colors": [],
       "sizes": [],
       "images": [
@@ -314,7 +314,7 @@
       "category": "زنانه",
       "price": 240000,
       "oldPrice": 0,
-      "stock": 0,
+      "stock": 10,
       "colors": [],
       "sizes": [],
       "images": [
@@ -332,7 +332,7 @@
       "category": "زنانه",
       "price": 260000,
       "oldPrice": 0,
-      "stock": 0,
+      "stock": 10,
       "colors": [],
       "sizes": [],
       "images": [
@@ -350,7 +350,7 @@
       "category": "زنانه",
       "price": 240000,
       "oldPrice": 0,
-      "stock": 0,
+      "stock": 10,
       "colors": [],
       "sizes": [],
       "images": [
@@ -368,7 +368,7 @@
       "category": "بچگانه",
       "price": 280000,
       "oldPrice": 0,
-      "stock": 0,
+      "stock": 10,
       "colors": [],
       "sizes": [],
       "images": [
@@ -386,7 +386,7 @@
       "category": "زنانه",
       "price": 480000,
       "oldPrice": 0,
-      "stock": 0,
+      "stock": 10,
       "colors": [],
       "sizes": [],
       "images": [
@@ -404,7 +404,7 @@
       "category": "جوراب",
       "price": 150000,
       "oldPrice": 0,
-      "stock": 0,
+      "stock": 10,
       "colors": [],
       "sizes": [],
       "images": [
@@ -422,7 +422,7 @@
       "category": "زنانه",
       "price": 240000,
       "oldPrice": 0,
-      "stock": 0,
+      "stock": 10,
       "colors": [],
       "sizes": [],
       "images": [
@@ -440,7 +440,7 @@
       "category": "زنانه",
       "price": 600000,
       "oldPrice": 0,
-      "stock": 0,
+      "stock": 10,
       "colors": [],
       "sizes": [],
       "images": [
@@ -458,7 +458,7 @@
       "category": "زنانه",
       "price": 220000,
       "oldPrice": 0,
-      "stock": 0,
+      "stock": 10,
       "colors": [],
       "sizes": [],
       "images": [
@@ -476,7 +476,7 @@
       "category": "زنانه",
       "price": 240000,
       "oldPrice": 0,
-      "stock": 0,
+      "stock": 10,
       "colors": [],
       "sizes": [],
       "images": [
@@ -494,7 +494,7 @@
       "category": "ست",
       "price": 700000,
       "oldPrice": 0,
-      "stock": 0,
+      "stock": 10,
       "colors": [],
       "sizes": [],
       "images": [
@@ -512,7 +512,7 @@
       "category": "ست",
       "price": 750000,
       "oldPrice": 0,
-      "stock": 0,
+      "stock": 10,
       "colors": [],
       "sizes": [],
       "images": [
@@ -530,7 +530,7 @@
       "category": "زنانه",
       "price": 520000,
       "oldPrice": 0,
-      "stock": 0,
+      "stock": 10,
       "colors": [],
       "sizes": [],
       "images": [
@@ -548,7 +548,7 @@
       "category": "ست",
       "price": 750000,
       "oldPrice": 0,
-      "stock": 0,
+      "stock": 10,
       "colors": [],
       "sizes": [],
       "images": [
@@ -585,7 +585,7 @@
       "category": "زنانه",
       "price": 240000,
       "oldPrice": 0,
-      "stock": 0,
+      "stock": 10,
       "colors": [],
       "sizes": [],
       "images": [
@@ -593,6 +593,168 @@
       ],
       "material": "نخ پنبه",
       "description": "شورت نخ پنبه تم گلبهی😍 جنس عالی💯 ضد حساسیت🤌 فاق دولایه و بلند کش پهن سایز ۲xl قیمت بااحترام : ۲۴۰/۰۰۰ تومان",
+      "isNew": true,
+      "sold": 0
+    },
+    {
+      "id": "uj-tg-103",
+      "code": "UJ-0034",
+      "name": "???? ????? ?????? ?????",
+      "category": "?????",
+      "price": 350000,
+      "oldPrice": 0,
+      "stock": 10,
+      "colors": [],
+      "sizes": [],
+      "images": [
+        "/assets/products/uj-0034.jpg"
+      ],
+      "material": "",
+      "description": "???? ????? ???????? ??? ?????? ?????? ???? XL ? 2XL? ???????? ????? ?????.",
+      "isNew": true,
+      "sold": 0
+    },
+    {
+      "id": "uj-tg-104",
+      "code": "UJ-0035",
+      "name": "???? ?? ???? TBT",
+      "category": "?????",
+      "price": 320000,
+      "oldPrice": 0,
+      "stock": 10,
+      "colors": [],
+      "sizes": [],
+      "images": [
+        "/assets/products/uj-0035.jpg"
+      ],
+      "material": "?? ????",
+      "description": "???? ?? ???? ??? ???? ???? TBT? ???? L ????? ?? ?? ??? ??? ? ??? ????? ?????.",
+      "isNew": true,
+      "sold": 0
+    },
+    {
+      "id": "uj-tg-108",
+      "code": "UJ-0036",
+      "name": "????? ???? ??? ???????",
+      "category": "?????",
+      "price": 350000,
+      "oldPrice": 0,
+      "stock": 10,
+      "colors": [],
+      "sizes": [],
+      "images": [
+        "/assets/products/uj-0036.jpg"
+      ],
+      "material": "",
+      "description": "????? ???? ??? ???????? ????? ?????? ? ???? ???? ?? ?? ??? ??????? ?????.",
+      "isNew": true,
+      "sold": 0
+    },
+    {
+      "id": "uj-tg-110",
+      "code": "UJ-0037",
+      "name": "????? ???????? GAP ????????",
+      "category": "?????",
+      "price": 100000,
+      "oldPrice": 0,
+      "stock": 10,
+      "colors": [],
+      "sizes": [],
+      "images": [
+        "/assets/products/uj-0037.jpg"
+      ],
+      "material": "",
+      "description": "????? ???????? GAP ????????? ????? ? ??????? ???????? ? ?? ?.",
+      "isNew": true,
+      "sold": 0
+    },
+    {
+      "id": "uj-tg-122",
+      "code": "UJ-0038",
+      "name": "????? ?????? ?????? ??? C",
+      "category": "?????",
+      "price": 600000,
+      "oldPrice": 0,
+      "stock": 10,
+      "colors": [],
+      "sizes": [],
+      "images": [
+        "/assets/products/uj-0038.jpg"
+      ],
+      "material": "",
+      "description": "????? ?????? ??????? ? ??? ?????? ??? C? ??????? ??? ??? ??? ? ???.",
+      "isNew": true,
+      "sold": 0
+    },
+    {
+      "id": "uj-tg-125",
+      "code": "UJ-0039",
+      "name": "???? ???? ????? ????",
+      "category": "?????",
+      "price": 650000,
+      "oldPrice": 0,
+      "stock": 10,
+      "colors": [],
+      "sizes": [],
+      "images": [
+        "/assets/products/uj-0039.jpg"
+      ],
+      "material": "????",
+      "description": "???? ???? ????? ????? ??????? ????? ???? ???? ? ????? ???? XL.",
+      "isNew": true,
+      "sold": 0
+    },
+    {
+      "id": "uj-tg-135a",
+      "code": "UJ-0040",
+      "name": "????? ??????? ?? ???????",
+      "category": "?????",
+      "price": 140000,
+      "oldPrice": 0,
+      "stock": 10,
+      "colors": [],
+      "sizes": [],
+      "images": [
+        "/assets/products/uj-0040.jpg"
+      ],
+      "material": "",
+      "description": "????? ??????? ?? ???????? ???????? ?? ?? ??? ???????? ????? ?????.",
+      "isNew": true,
+      "sold": 0
+    },
+    {
+      "id": "uj-tg-135b",
+      "code": "UJ-0041",
+      "name": "????? ???????? ?? ???????",
+      "category": "?????",
+      "price": 180000,
+      "oldPrice": 0,
+      "stock": 10,
+      "colors": [],
+      "sizes": [],
+      "images": [
+        "/assets/products/uj-0041.jpg"
+      ],
+      "material": "",
+      "description": "????? ???????? ?? ???????? ???????? ?? ?? ??? ???????? ????? ?????.",
+      "isNew": true,
+      "sold": 0
+    },
+    {
+      "id": "uj-tg-169",
+      "code": "UJ-0042",
+      "name": "?? ??? ? ???? ????",
+      "category": "??????",
+      "price": 680000,
+      "oldPrice": 0,
+      "stock": 10,
+      "colors": [],
+      "sizes": [],
+      "images": [
+        "/assets/products/uj-0042.jpg"
+      ],
+      "material": "??",
+      "description": "?? ??? ? ???? ????? ??? ??? ????? ????.",
       "isNew": true,
       "sold": 0
     }

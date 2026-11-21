@@ -36,7 +36,7 @@ async function readDb() {
       if (JSON.stringify(next) !== JSON.stringify(product.images)) { product.images = next; changed = true; }
     }
   }
-  if (d.seedVersion !== 1) {
+  {
     try {
       const seed = JSON.parse(await fs.readFile(path.join(ROOT, 'catalog-seed.json'), 'utf8'));
       for (const p of (Array.isArray(seed.products) ? seed.products : [])) {
