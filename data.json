@@ -1,0 +1,27 @@
+{
+  "products": [
+    {
+      "id": "uj-first-cotton-blue-3xl",
+      "code": "UJ-0001",
+      "name": "شورت نخ پنبه تم آبی",
+      "category": "زنانه",
+      "price": 240000,
+      "oldPrice": 0,
+      "stock": 10,
+      "colors": [
+        "آبی"
+      ],
+      "sizes": [
+        "3XL"
+      ],
+      "images": [],
+      "material": "نخ پنبه",
+      "description": "جنس عالی؛ فاق دولایه و بلند؛ کش پهن؛ ضد حساسیت. سایز 3XL.",
+      "isNew": true,
+      "sold": 0,
+      "createdAt": "2026-11-21T16:19:13.471Z",
+      "updatedAt": "2026-11-21T16:19:13.474Z"
+    }
+  ],
+  "orders": []
+}
