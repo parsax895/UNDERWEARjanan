@@ -60,3 +60,13 @@ $('checkout').onclick=()=>{if(!cart.length)return alert('سبد خرید خال�
 $('placeOrder').onclick=async()=>{let msg=$('checkoutMsg');msg.textContent='در حال ثبت سفارش…';let payload={name:$('custName').value,phone:$('custPhone').value,email:$('custEmail').value,address:$('custAddress').value,postalCode:$('custPostal').value,items:cart.map(x=>({productId:x.productId,quantity:x.quantity,color:x.color,size:x.size}))};try{let r=await fetch('/api/orders',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(payload)}),d=await r.json();if(!r.ok)throw Error(d.error||'ثبت سفارش انجام نشد');$('checkoutForm').hidden=true;$('checkoutDone').hidden=false;$('checkoutDone').innerHTML='<h3 class="success">درخواست سفارش ثبت شد.</h3><p>شماره پیگیری: <b>'+esc(d.order.id)+'</b></p><p>مبلغ: '+fmt(d.order.total)+'</p><p>برای هماهنگی نهایی با شما تماس گرفته می‌شود.</p>';cart=[];updateCart()}catch(e){msg.textContent=e.message}};
 loadProducts();updateCart();document.getElementById("promoPrev")?.addEventListener("click",()=>document.getElementById("promoTrack")?.scrollBy({left:260,behavior:"smooth"}));document.getElementById("promoNext")?.addEventListener("click",()=>document.getElementById("promoTrack")?.scrollBy({left:-260,behavior:"smooth"}));
 </script></body></html>
+
+<style>
+/* Stronger sky-blue canvas: the blue belongs to the whole page, not only the hero photo */
+html{background:#b9e6f7}
+body{background:linear-gradient(180deg,#b8e7f8 0%,#cceefa 38%,#dff5fc 72%,#bfe8f8 100%) !important;background-attachment:fixed;color:#173b55}
+main,.section{background:transparent}
+.top{background:#194f6d;color:#f5fbff}
+header{background:rgba(220,245,255,.78)}
+.banner{background:rgba(255,255,255,.48)}
+</style>
