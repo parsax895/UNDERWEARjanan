@@ -105,7 +105,17 @@ button{color:inherit}a{color:#edc5b8}
 @media(max-width:800px){.categories{grid-template-columns:repeat(2,minmax(0,1fr))!important}.category-card{max-width:220px;justify-self:center}}
 
 </style>
-</head><body>
+<style>
+/* Cart quantity controls: burgundy and metallic accent */
+#cartItems .qty{display:flex!important;align-items:center!important;gap:7px!important;flex-wrap:wrap!important;margin-top:9px!important}
+#cartItems .qty button{appearance:none!important;-webkit-appearance:none!important;min-width:34px!important;min-height:32px!important;padding:5px 10px!important;border:1px solid #c99a78!important;border-radius:9px!important;background:linear-gradient(145deg,#641632,#360b1d)!important;color:#fff0e5!important;font:600 13px Vazirmatn,Tahoma,sans-serif!important;box-shadow:inset 0 1px 0 rgba(255,235,220,.13),0 3px 9px rgba(0,0,0,.2)!important;cursor:pointer!important;transition:background .18s,transform .18s,box-shadow .18s!important}
+#cartItems .qty button:hover{background:linear-gradient(145deg,#8a2948,#54112b)!important;box-shadow:0 4px 12px rgba(0,0,0,.28)!important;transform:translateY(-1px)!important}
+#cartItems .qty button:active{transform:translateY(0)!important}
+#cartItems .qty button:focus-visible{outline:2px solid #f0c9a8!important;outline-offset:2px!important}
+#cartItems .qty button[data-del]{background:linear-gradient(145deg,#e7c4b0,#c98f7c)!important;color:#3b0b20!important;border-color:#f0d4c0!important;padding-inline:12px!important}
+#cartItems .qty button[data-del]:hover{background:linear-gradient(145deg,#f2d7c7,#d6a18d)!important}
+#cartItems .qty b{min-width:20px!important;text-align:center!important;color:#f8e9e4!important;font-variant-numeric:tabular-nums!important}
+</style>\n</head><body>
 <div class="top">ارسال رایگان برای سفارش‌های بالای ۲ میلیون تومان</div>
 <header><a class="logo" href="/">UNDERWEARjanan</a><nav class="nav"><a href="#home">خانه</a><a href="#categories">دسته‌بندی</a><a href="#shop">فروشگاه</a><a href="pages.html">راهنما و قوانین</a></nav><div class="actions"><a href="#search">جست‌وجو</a><button class="cart" id="openCart">سبد خرید (<b id="count">۰</b>)</button></div></header>
 <main id="home"><section class="hero"><div class="hero-copy"><div class="eyebrow">EVERYDAY COMFORT · ELEVATED</div><h1>راحتی،<br>با امضای تو.</h1><p>انتخابی ساده برای هر روز؛ کیفیتی که حس می‌کنی و طراحی‌ای که دوستش داری.</p><a class="primary" href="#shop">مشاهده محصولات</a></div></section>
